@@ -99,6 +99,7 @@ body {
     font-weight: 700;
     text-align: center;
     text-decoration-line: underline;
+    padding-top: 25px;
 }
 
 .flower-one {
@@ -128,7 +129,7 @@ body {
 /* specialty section styles */
 
 .specialty-section-container {
-    margin: 130px 240px;
+    margin: 170px 240px;
     padding: 85px 175px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
@@ -191,8 +192,8 @@ body {
 }
 
 .latest-deals-container>.section-header {
-    padding-top: 122px;
-    padding-bottom: 16px;
+    padding-top: 120px;
+    padding-bottom: 15px;
 }
 
 .latest-deals-container input[type="email"] {
@@ -207,4 +208,30 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     padding: 22px;
+}
+
+/* footer section styles */
+
+footer {
+    background-color: #111010;
+    text-align: center;
+    margin-top: 128px;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
+    color: #FFF;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    padding: 24px 650px 48px 650px;
+}
+
+.copyright-text {
+    color: rgba(255, 255, 255, 0.40);
+    padding-bottom: 128px;
 }
