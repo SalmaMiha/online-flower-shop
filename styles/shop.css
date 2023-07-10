@@ -14,6 +14,10 @@ body {
     border: none;
 }
 
+.highlighted-text {
+    color: #E55473;
+}
+
 /* header related styles */
 
 .header {
@@ -129,4 +133,27 @@ body {
 
 .specialty {
     text-align: center;
+}
+
+/* hot-deals section styles */
+
+.hot-deals-container {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-content {
+    text-align: center;
+    margin: 230px 185px 160px 395px;
+}
+
+.hot-deal-pic {
+    width: 318px;
+    height: 420px;
+    padding: 100px 430px 100px 0px;
+}
+
+#hot-deal-text {
+    padding: 24px 0 32px 0;
 }
