@@ -115,3 +115,18 @@ body {
     background: rgba(71, 125, 17, 0.15);
     padding: 67px 75px 0 75px;
 }
+
+/* specialty section styles */
+
+.specialty-section-container {
+    margin: 130px 240px;
+    padding: 85px 175px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-between;
+}
+
+.specialty {
+    text-align: center;
+}
