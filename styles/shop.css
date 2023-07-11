@@ -55,6 +55,10 @@ body {
     margin: 32px 170px 32px 0;
 }
 
+.banner-text {
+    margin-bottom: 167px;
+}
+
 /* main section shared styles */
 
 .section-header {
@@ -208,6 +212,52 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     padding: 22px;
+}
+
+/* contact-us section styles */
+
+.contact-us {
+    margin-top: 128px;
+    text-align: center;
+}
+
+.contacts {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.contact-box {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px 0px rgb(189, 191, 191);
+    width: 200px;
+}
+
+.contact-title {
+    font-size: 20px;
+}
+
+.contact-box p {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.contact-box a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #111010;
+}
+
+#contact-box-pink {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+#contact-box-blue {
+    background-color: rgba(5, 151, 160, 0.10);
+
 }
 
 /* footer section styles */
